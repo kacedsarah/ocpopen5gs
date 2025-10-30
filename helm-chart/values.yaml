@@ -45,14 +45,7 @@ amf:
   mcc: 208
   mnc: 93
   tac: 7
-  replicas: 2       # <--- Added: Run 2 AMF pods for redundancy
-
-smf:
-  replicas: 2       # <--- Added: Run 2 SMF pods for HA
-
-upf:
-  replicas: 1       # <--- Added: Keep 1 UPF pod (can be scaled later)
-
+  
 
 # Primary/Native kubernetes interface
 k8s:
